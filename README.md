@@ -17,6 +17,7 @@ pip2 install mechanize
 rm -rf DDOS-Speed
 git clone https://github.com/Cyber-Nirob-Official/DDOS-Speed
 cd DDOS-Speed
+chmod +x DDOS.py
 python2 DDOS-SPEED.py
 ```
 

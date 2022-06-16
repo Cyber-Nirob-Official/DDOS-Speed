@@ -9,11 +9,14 @@ apt install git
 pkg install python
 pkg install python2
 pkg install python3
+curl -LO https://its-pointless.github.io/setup-pointless-repo.sh
+bash setup-pointless-repo.sh
 apt install dnsutils
 python3 -m pip install --upgrade
 pkg install pip2
 pip2 install requests
 pip2 install mechanize
+pkg update && pkg upgrade -y
 rm -rf DDOS-Speed
 git clone https://github.com/Cyber-Nirob-Official/DDOS-Speed
 cd DDOS-Speed
